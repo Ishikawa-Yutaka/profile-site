@@ -1,0 +1,37 @@
+# 依存関係
+# node.js / npm / yarn
+/node_modules
+npm-debug.log*
+yarn-error.log
+yarn-debug.log
+
+# ビルド成果物
+/build
+/dist
+/out
+
+# ログファイル
+*.log
+
+# テスト関連
+/coverage
+
+# 環境変数ファイル (APIキーなどの秘密情報を格納)
+# .env.example や .env.template など、テンプレートはGit管理に含めるのが一般的
+.env
+.env.*
+!.env.example
+!.env.template
+
+# IDE/エディタ設定ファイル
+# Visual Studio Code
+.vscode/
+
+# OSが自動生成するファイル
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes

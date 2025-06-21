@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>自己紹介ページ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <div class="container">
+        <h1>My Profile</h1>
+        <nav>
+          <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#skills">Skill</a></li>
+            <li><a href="#hobbies">Hobby</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- 自己紹介セクション -->
+      <section id="profile" class="profile">
+        <div class="profile-bg-top">Ishikawa</div>
+        <div class="container">
+          <div class="profile-content">
+            <div class="profile-image">
+              <img src="images/profile.png" alt="プロフィール画像" />
+            </div>
+            <div class="profile-text">
+              <h2>
+                <span>石川 裕</span><br /><span class="profile-title"
+                  >イシカワ ユタカ</span
+                >
+              </h2>
+
+              <p class="profile-description">
+                はじめまして、石川
+                裕です。個人でWebサイト制作を行っています。<br />
+                今後はアプリ開発も通じて、地元企業のサポートと地域活性化に貢献していきたいです。
+                よろしくお願いいたします。
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="profile-bg-btm">Yutaka</div>
+      </section>
+
+      <!-- スキルセクション -->
+      <section id="skills" class="skills">
+        <div class="container">
+          <div class="title-wrap"><h2 class="section-title">Skills</h2></div>
+          <div class="skills-container">
+            <div class="skill-item">
+              <div class="skill-name">HTML/CSS<span>80%</span></div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 80%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-name">JavaScript<span>50%</span></div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 50%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-name">React<span>0%</span></div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 0%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-name">UI/UXデザイン<span>70%</span></div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 70%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 趣味・特技セクション -->
+      <section id="hobbies" class="hobbies">
+        <div class="container">
+          <div class="title-wrap"><h2 class="section-title">Hobby</h2></div>
+          <div class="hobbies-container">
+            <div class="hobby-item">
+              <h3>多肉植物</h3>
+              <div class="hobby-img">
+                <img src="images/succulents.jpg" alt="多肉植物の画像" />
+              </div>
+              <p>
+                可愛らしかったり、カッコ良かったりと個性があるのが魅力です。
+              </p>
+            </div>
+
+            <div class="hobby-item">
+              <h3>写 真</h3>
+              <div class="hobby-img">
+                <img src="images/photo.jpg" alt="カメラを構えている画像" />
+              </div>
+              <p>草花やイベント、家族の写真を撮って楽しんでいます。</p>
+            </div>
+
+            <div class="hobby-item">
+              <h3>街歩き</h3>
+              <div class="hobby-img">
+                <img src="images/stroll.jpg" alt="城下町の風景画像" />
+              </div>
+              <p>初めて訪れる街をぷらぷらと散策するのが好きです。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 経歴セクション -->
+      <section id="history" class="history">
+        <div class="container">
+          <div class="title-wrap"><h2 class="section-title">History</h2></div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-date">2024年 - 現在</div>
+              <div class="timeline-content">
+                <h3>地元で副業を開始</h3>
+                <p>地元の島根県に帰り、個人でホームーページ制作を始める</p>
+              </div>
+            </div>
+            <div class="timeline-border"></div>
+            <div class="timeline-item">
+              <div class="timeline-date">2019年 - 2023年</div>
+              <div class="timeline-content">
+                <h3>ホームーページ担当として勤める</h3>
+                <p>
+                  山口県のグループ企業に就職。観光事業、タクシー事業などのホームーページを制作・管理
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-date">2018年 - 2019年</div>
+              <div class="timeline-content">
+                <h3>ホームーページ制作を学ぶ</h3>
+                <p>
+                  もともとプログラミングをして何か作りたいと言う思いがあったので、ホームーページ制作を学ぶ
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- お問い合わせフォーム -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="title-wrap"><h2 class="section-title">Contact</h2></div>
+          <form>
+            <div class="form-group">
+              <label for="name">お名前</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="お名前を入力してください"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">メールアドレス</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="メールアドレスを入力してください"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">メッセージ</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+                placeholder="メッセージを入力してください"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn">送信する</button>
+          </form>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <p>© 2025 Ishikawa Yutaka All Rights Reserved.</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
