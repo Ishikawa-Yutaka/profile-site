@@ -460,11 +460,27 @@ input:-webkit-autofill {
   width: 100%;
   margin: 2.2em auto 0;
   font-weight: 600;
-  transition: background-color 0.3s;
+  opacity: 1;
+  transition: opacity 0.3s ease, background-color 0.3s ease-in-out;
 }
 
 .btn:hover {
-  background-color: #3399ff;
+  opacity: 0.8;
+}
+
+/* テキスト変更時のアニメーション */
+.btn.fade-out {
+  opacity: 0;
+}
+
+.btn.fade-in {
+  opacity: 1;
+}
+
+/* 送信完了時のボタンスタイル */
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.8;
 }
 
 /* =================================
